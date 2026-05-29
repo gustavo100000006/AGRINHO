@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgroNegócio Sustentável</title>
+
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f4f7f2;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header{
+            background-color: #2e7d32;
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        header h1{
+            font-size: 42px;
+            margin-bottom: 10px;
+        }
+
+        nav{
+            background-color: #1b5e20;
+            padding: 15px;
+        }
+
+        nav ul{
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            gap: 20px;
+        }
+
+        nav a{
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover{
+            text-decoration: underline;
+        }
+
+        main{
+            width: 90%;
+            max-width: 1000px;
+            margin: 30px auto;
+        }
+
+        section{
+            background-color: white;
+            padding: 25px;
+            margin-bottom: 25px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        section h2{
+            color: #2e7d32;
+            margin-bottom: 15px;
+        }
+
+        article{
+            margin-top: 15px;
+            padding: 15px;
+            border-left: 5px solid #4caf50;
+            background-color: #f9f9f9;
+        }
+
+        ul{
+            margin-left: 20px;
+        }
+
+        form{
+            margin-top: 20px;
+        }
+
+        input,
+        textarea{
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        textarea{
+            height: 120px;
+        }
+
+        button{
+            background-color: #2e7d32;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover{
+            background-color: #1b5e20;
+        }
+
+        footer{
+            background-color: #1b5e20;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>AgroNegócio Sustentável</h1>
+        <p>Produção consciente para um futuro melhor</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#praticas">Práticas</a></li>
+            <li><a href="#beneficios">Benefícios</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <section id="sobre">
+            <h2>Sobre</h2>
+
+            <p>
+                O agronegócio sustentável promove o equilíbrio entre produção agrícola,
+                preservação ambiental e responsabilidade social.
+            </p>
+
+            <p>
+                O objetivo é garantir produtividade sem prejudicar os recursos naturais.
+            </p>
+        </section>
+
+        <section id="praticas">
+            <h2>Práticas Sustentáveis</h2>
+
+            <article>
+                <h3>Economia de Água</h3>
+                <p>
+                    Utilização de sistemas inteligentes de irrigação para evitar desperdícios.
+                </p>
+            </article>
+
+            <article>
+                <h3>Energia Renovável</h3>
+                <p>
+                    Uso de energia solar e biomassa para reduzir impactos ambientais.
+                </p>
+            </article>
+
+            <article>
+                <h3>Proteção do Solo</h3>
+                <p>
+                    Técnicas agrícolas que preservam nutrientes e evitam erosão.
+                </p>
+            </article>
+        </section>
+
+        <section id="beneficios">
+            <h2>Benefícios</h2>
+
+            <ul>
+                <li>Maior preservação ambiental</li>
+                <li>Redução da poluição</li>
+                <li>Melhoria da qualidade dos alimentos</li>
+                <li>Desenvolvimento econômico sustentável</li>
+            </ul>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+
+            <form>
+
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" placeholder="Digite seu nome">
+
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Digite seu email">
+
+                <label for="mensagem">Mensagem</label>
+                <textarea id="mensagem" placeholder="Digite sua mensagem"></textarea>
+
+                <button type="submit">Enviar</button>
+
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 AgroNegócio Sustentável</p>
+    </footer>
+
+</body>
+</html>
