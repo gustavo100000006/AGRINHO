@@ -21,7 +21,7 @@
         }
 
         header{
-            background-color: #2e7d32;
+            background-color: #23d4d4;
             color: white;
             text-align: center;
             padding: 40px 20px;
@@ -33,7 +33,7 @@
         }
 
         nav{
-            background-color: #1b5e20;
+            background-color: #54e75e;
             padding: 15px;
         }
 
@@ -69,14 +69,14 @@
         }
 
         section h2{
-            color: #2e7d32;
+            color: #33eeee;
             margin-bottom: 15px;
         }
 
         article{
             margin-top: 15px;
             padding: 15px;
-            border-left: 5px solid #4caf50;
+            border-left: 5px solid #31c9e4;
             background-color: #f9f9f9;
         }
 
@@ -103,7 +103,7 @@
         }
 
         button{
-            background-color: #2e7d32;
+            background-color: #37ddf3;
             color: white;
             border: none;
             padding: 12px 25px;
@@ -113,11 +113,11 @@
         }
 
         button:hover{
-            background-color: #1b5e20;
+            background-color: #2ef0f0;
         }
 
         footer{
-            background-color: #1b5e20;
+            background-color: #36dae6;
             color: white;
             text-align: center;
             padding: 20px;
